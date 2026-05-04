@@ -19,7 +19,7 @@ This time Apple dropped a lot of models, with the last T2-less Mac being dropped
 
 ## Current status
 
-OpenCore Legacy Patcher 3.0.0 supports Sequoia for the models below, however some challenges remain. You can find information about them further down this page.
+OpenCore Legacy Patcher 3.0.0 supports Tahoe for the models below, however some challenges remain. You can find information about them further down this page.
 
 <img width="625" alt="" src="./images/OCLP-200-Initial-Support.png">
 
@@ -43,7 +43,7 @@ iPhone Mirroring requires T2 for attestation and Apple Intelligence requires an 
 
 ### Dual socket CPUs with Mac Pro 2008 and Xserve 2008
 
-Booting Sequoia on Mac Pro 2008 (MacPro3,1) or Xserve 2008 (Xserve2,1) with more than 4 cores will cause Sequoia to panic. OpenCore Legacy Patcher will automatically disable additional cores.
+Booting Sequoia (and possibly Tahoe) on Mac Pro 2008 (MacPro3,1) or Xserve 2008 (Xserve2,1) with more than 4 cores will cause Sequoia/Tahoe to panic. OpenCore Legacy Patcher will automatically disable additional cores.
 
 This is due to the dual socket nature of the machine, and likely some firmware/ACPI table incompatibility. 
 
@@ -51,7 +51,7 @@ This is due to the dual socket nature of the machine, and likely some firmware/A
 
 ::: warning Note
 
-Dual booting Sequoia and older will not be possible with all cores enabled due to reasons described before. In these cases you will be limited to 4 cores.
+Dual booting Tahoe and older will not be possible with all cores enabled due to reasons described before. In these cases you will be limited to 4 cores.
 
 :::
 
