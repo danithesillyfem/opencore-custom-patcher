@@ -17,7 +17,7 @@ jobs:
   build:
     name: Build Site and Deploy
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'dortania'
+    if: github.repository_owner == 'DaniTheSillyFem'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,7 +40,7 @@ jobs:
         with:
           path: docs/.vuepress/dist/
   deploy:
-    if: ${{ github.repository_owner == 'dortania' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    if: ${{ github.repository_owner == 'DaniTheSillyFem' && github.ref == 'refs/heads/main' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
