@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /homepage.png
-heroText: OpenCore Legacy Patcher
+heroText: OpenCore Custom Patcher
 actionText: Getting Started→
 actionLink: START.md
 
@@ -22,5 +22,5 @@ features:
   details: Unlock some newer features such as Sidecar, AirPlay to Mac, Night Shift, and Universal Control, even on natively supported models!
 - title: A helpful community
   details: Whether it's getting started or learning the specifics, you can always find answers with our amazing community of tinkerers, developers, and dreamers.
-footer: Copyright © Dortania 2020-2025
+footer: Copyright © Dortania 2020-2026 + DaniTheSillyFem 2025-2026
 ---
