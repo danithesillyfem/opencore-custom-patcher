@@ -9,11 +9,11 @@ Our project's main goal is to breathe new life into Macs no longer supported by 
 
 ----------
 
-![GitHub all releases](https://img.shields.io/github/downloads/dortania/OpenCore-Legacy-Patcher/total?color=white&style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/dortania/OpenCore-Legacy-Patcher?color=4B8BBE&style=plastic) ![Discord](https://img.shields.io/discord/417165963327176704?color=7289da&label=discord&style=plastic)
+![GitHub all releases](https://img.shields.io/github/downloads/DaniTheSillyFem/OpenCore-Custom-Patcher/total?color=white&style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/dortania/OpenCore-Legacy-Patcher?color=4B8BBE&style=plastic) ![Discord](https://img.shields.io/discord/417165963327176704?color=7289da&label=discord&style=plastic)
 
 ----------
 
-Noteworthy features of OpenCore Legacy Patcher:
+Noteworthy features of OpenCore Custom Patcher:
 
 * Support for macOS Big Sur, Monterey, Ventura, Sonoma, Sequoia and Tahoe
 * Native Over the Air (OTA) System Updates
@@ -40,7 +40,7 @@ Note 2: Currently, OpenCore Custom Patcher officially supports patching to run m
 
 To start using the project, please see our in-depth guide:
 
-* [OpenCore Legacy Patcher Guide](https://dortania.github.io/OpenCore-Legacy-Patcher/)
+* [OpenCore Legacy Patcher Guide](https://danithesillyfem.github.io/OpenCore-Custom-Patcher/)
 
 ## Support
 
