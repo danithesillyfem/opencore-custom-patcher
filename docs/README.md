@@ -2,7 +2,7 @@
 home: true
 heroImage: /homepage.png
 heroText: OpenCore Custom Patcher
-actionText: Getting Started→
+actionText: Getting Started →
 actionLink: START.md
 
 meta:
