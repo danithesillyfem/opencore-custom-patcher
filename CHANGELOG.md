@@ -1,4 +1,13 @@
-# OpenCore Legacy Patcher changelog
+# OpenCore Custom Patcher changelog
+
+## 3.1.0
+- Unblock macOS 26 root patching
+- Update all kexts in payloads/Kexts/Acidanthera to latest or newer version
+- Increment Binaries:
+  - PatcherSupportPkg 2.1.0 - release
+- Notes:
+  - GPU patching is still broken, I recommend using a machine with a natively supported dGPU/iGPU
+  - You do have to disable AMFI in Settings -> Security -> Disable AMFI else the system won't boot (this is a side effect of a custom PatcherSupportPkg)
 
 ## 3.0.0
 - Restore support for FileVault 2 on macOS 26
