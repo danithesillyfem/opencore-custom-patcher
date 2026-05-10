@@ -60,6 +60,8 @@ To run the project from source, see here: [Build and run from source](./SOURCE.m
 
 ## Credits
 
+* [crystall1nedev](https://github.com/crystall1nedev)
+  * The tahoe patches, and the literal base of OCCP
 * [Acidanthera](https://github.com/Acidanthera)
   * OpenCorePkg, as well as many of the core kexts and tools
 * [DhinakG](https://github.com/DhinakG)
