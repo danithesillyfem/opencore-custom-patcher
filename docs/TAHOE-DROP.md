@@ -6,6 +6,11 @@ Another year, another release.
 
 This time Apple dropped a lot of models, with the last T2-less Mac being dropped. With the release of OpenCore Legacy Patcher 3.0.0, early support for macOS Tahoe has been implemented.
 
+::: warning WARNING!
+
+GPU patches are still broken since no new version has been made for Darwin 25. Please use a machine with a supported dGPU/iGPU if you want to use this patcher in the meantime.
+
+:::
 
 ## Newly dropped hardware
 
@@ -23,7 +28,7 @@ OpenCore Legacy Patcher 3.0.0 supports Tahoe for the models below, however some 
 
 <img width="625" alt="" src="./images/OCLP-200-Initial-Support.png">
 
-Unfortunately due to T2 related problems, the recently dropped MacBookAir8,x models cannot be supported at this time. We have made some progress on this issue, but panics are still occurring and there is still a significant amount of development work to do before T2 machines may even get to the install screen. We cannot provide any estimate on when T2 machines will be supported. 
+Unfortunately due to T2 related problems, the dropped MacBookAir8,x models still cannot be supported at this time. We have made some progress on this issue, but panics are still occurring and there is still a significant amount of development work to do before T2 machines may even get to the install screen. We cannot provide any estimate on when T2 machines will be supported. 
 
 [More information here.](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1136)
 
