@@ -5,6 +5,7 @@
 - Update all kexts in payloads/Kexts/Acidanthera to latest or newer version
 - Increment Binaries:
   - PatcherSupportPkg 2.1.0 - release
+  - OpenCore 1.0.7 - rolling (6651fc3)
 - Notes:
   - GPU patching is still broken, I recommend using a machine with a natively supported dGPU/iGPU
   - You do have to disable AMFI in Settings -> Security -> Disable AMFI else the system won't boot (this is a side effect of a custom PatcherSupportPkg)
